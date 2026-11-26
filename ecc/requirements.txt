@@ -1,0 +1,2 @@
+pycryptodome==4.6.0
+matplotlib==3.11.2

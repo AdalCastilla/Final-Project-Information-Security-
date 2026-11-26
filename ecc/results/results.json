@@ -1,0 +1,844 @@
+{
+  "environment": {
+    "python": "3.12.7",
+    "pycryptodome": "4.6.0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "machine": "arm64",
+    "processor": "Apple M3",
+    "date": "2026-11-24"
+  },
+  "protocol": {
+    "keygen_runs": 5,
+    "warmup": 5,
+    "runs": 100,
+    "message": "Meet me at the library at 6 pm. See you!!!"
+  },
+  "main": [
+    {
+      "scheme": "ECIES",
+      "size": "P-192",
+      "security_bits": 96,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.03874979738611728,
+        "sd_ms": 0.0062577433116718555,
+        "median_ms": 0.03545799700077623
+      },
+      "encrypt": {
+        "mean_ms": 0.20572712004650384,
+        "sd_ms": 0.012190395491005675,
+        "median_ms": 0.202958493900951
+      },
+      "decrypt": {
+        "mean_ms": 0.2560894991620444,
+        "sd_ms": 0.01842641278879533,
+        "median_ms": 0.2574579993961379
+      },
+      "ciphertext_bytes": 95,
+      "base64_chars": 128,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-224",
+      "security_bits": 112,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.04650019982364029,
+        "sd_ms": 0.002787147388520881,
+        "median_ms": 0.04541699308902025
+      },
+      "encrypt": {
+        "mean_ms": 0.2704371290747076,
+        "sd_ms": 0.013963633364093442,
+        "median_ms": 0.2674584975466132
+      },
+      "decrypt": {
+        "mean_ms": 28.36246087012114,
+        "sd_ms": 3.151169118452002,
+        "median_ms": 28.133978994446807
+      },
+      "ciphertext_bytes": 99,
+      "base64_chars": 132,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-256",
+      "security_bits": 128,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.048308196710422635,
+        "sd_ms": 0.0019163760518788183,
+        "median_ms": 0.047707988414913416
+      },
+      "encrypt": {
+        "mean_ms": 0.291485488996841,
+        "sd_ms": 0.010256909228760594,
+        "median_ms": 0.2917085002991371
+      },
+      "decrypt": {
+        "mean_ms": 0.3404078604944516,
+        "sd_ms": 0.01706289579625721,
+        "median_ms": 0.33708399860188365
+      },
+      "ciphertext_bytes": 103,
+      "base64_chars": 140,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-384",
+      "security_bits": 192,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.0814333965536207,
+        "sd_ms": 0.0014577367808823556,
+        "median_ms": 0.08062500273808837
+      },
+      "encrypt": {
+        "mean_ms": 0.6085657788207754,
+        "sd_ms": 0.2385198184809585,
+        "median_ms": 0.5437915024231188
+      },
+      "decrypt": {
+        "mean_ms": 0.5551512297824956,
+        "sd_ms": 0.01992835730390788,
+        "median_ms": 0.5534789961529896
+      },
+      "ciphertext_bytes": 119,
+      "base64_chars": 160,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-521",
+      "security_bits": 256,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.11329180269967765,
+        "sd_ms": 0.002047001531056028,
+        "median_ms": 0.112749999971129
+      },
+      "encrypt": {
+        "mean_ms": 0.789966650045244,
+        "sd_ms": 0.00743270241805962,
+        "median_ms": 0.787436991231516
+      },
+      "decrypt": {
+        "mean_ms": 0.8052593006868847,
+        "sd_ms": 0.005185775201986007,
+        "median_ms": 0.804125505965203
+      },
+      "ciphertext_bytes": 137,
+      "base64_chars": 184,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "ECIES-unc",
+      "size": "P-192",
+      "security_bits": 96,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.03658380010165274,
+        "sd_ms": 0.0013317961558991051,
+        "median_ms": 0.036083991290070117
+      },
+      "encrypt": {
+        "mean_ms": 0.21295824088156223,
+        "sd_ms": 0.0024049889503537014,
+        "median_ms": 0.21254149760352448
+      },
+      "decrypt": {
+        "mean_ms": 0.18763041909551248,
+        "sd_ms": 0.001921726030272916,
+        "median_ms": 0.1874584995675832
+      },
+      "ciphertext_bytes": 119,
+      "base64_chars": 160,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": false
+    },
+    {
+      "scheme": "ECIES-unc",
+      "size": "P-224",
+      "security_bits": 112,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.04439999756868929,
+        "sd_ms": 0.0014996306029641223,
+        "median_ms": 0.04374999844003469
+      },
+      "encrypt": {
+        "mean_ms": 0.27171123030711897,
+        "sd_ms": 0.003996008293584875,
+        "median_ms": 0.27070799842476845
+      },
+      "decrypt": {
+        "mean_ms": 0.23656046978430822,
+        "sd_ms": 0.0023225965463377326,
+        "median_ms": 0.23606250033481047
+      },
+      "ciphertext_bytes": 127,
+      "base64_chars": 172,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": false
+    },
+    {
+      "scheme": "ECIES-unc",
+      "size": "P-256",
+      "security_bits": 128,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.047091604210436344,
+        "sd_ms": 0.0014041119332499619,
+        "median_ms": 0.04650000482797623
+      },
+      "encrypt": {
+        "mean_ms": 0.2901307196589187,
+        "sd_ms": 0.0025782809535131916,
+        "median_ms": 0.28945799567736685
+      },
+      "decrypt": {
+        "mean_ms": 0.2521391402115114,
+        "sd_ms": 0.002300292976479348,
+        "median_ms": 0.25127100525423884
+      },
+      "ciphertext_bytes": 135,
+      "base64_chars": 180,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": false
+    },
+    {
+      "scheme": "ECIES-unc",
+      "size": "P-384",
+      "security_bits": 192,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.08225839701481164,
+        "sd_ms": 0.004597964292089453,
+        "median_ms": 0.08054199861362576
+      },
+      "encrypt": {
+        "mean_ms": 0.5335774706327356,
+        "sd_ms": 0.01668871525029497,
+        "median_ms": 0.5343335069483146
+      },
+      "decrypt": {
+        "mean_ms": 0.4548070699092932,
+        "sd_ms": 0.00995902089100149,
+        "median_ms": 0.4560000015771948
+      },
+      "ciphertext_bytes": 167,
+      "base64_chars": 224,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": false
+    },
+    {
+      "scheme": "ECIES-unc",
+      "size": "P-521",
+      "security_bits": 256,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.11374119494576007,
+        "sd_ms": 0.002006324485444395,
+        "median_ms": 0.11320799239911139
+      },
+      "encrypt": {
+        "mean_ms": 0.7945686111634132,
+        "sd_ms": 0.011100851586736888,
+        "median_ms": 0.7885204977355897
+      },
+      "decrypt": {
+        "mean_ms": 0.6688757911615539,
+        "sd_ms": 0.011953531709408933,
+        "median_ms": 0.667041000269819
+      },
+      "ciphertext_bytes": 203,
+      "base64_chars": 272,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": false
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 1024,
+      "security_bits": 80,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 41.67450819804799,
+        "sd_ms": 19.79504450256836,
+        "median_ms": 42.76124999159947
+      },
+      "encrypt": {
+        "mean_ms": 0.03300206095445901,
+        "sd_ms": 0.0004013493850384123,
+        "median_ms": 0.032957992516458035
+      },
+      "decrypt": {
+        "mean_ms": 0.17784039955586195,
+        "sd_ms": 0.010106370602631417,
+        "median_ms": 0.1760835002642125
+      },
+      "ciphertext_bytes": 128,
+      "base64_chars": 172,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 2048,
+      "security_bits": 112,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 165.3684166027233,
+        "sd_ms": 49.39117012917339,
+        "median_ms": 152.2738330095308
+      },
+      "encrypt": {
+        "mean_ms": 0.06010116936522536,
+        "sd_ms": 0.0010658987045155397,
+        "median_ms": 0.05987500480841845
+      },
+      "decrypt": {
+        "mean_ms": 0.815992048883345,
+        "sd_ms": 0.0364826637502542,
+        "median_ms": 0.8040624961722642
+      },
+      "ciphertext_bytes": 256,
+      "base64_chars": 344,
+      "sms_segments": 3,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 3072,
+      "security_bits": 128,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 1361.1649166035932,
+        "sd_ms": 823.3704822381209,
+        "median_ms": 1192.8476250031963
+      },
+      "encrypt": {
+        "mean_ms": 0.10128873065696098,
+        "sd_ms": 0.001375762312909658,
+        "median_ms": 0.10099999781232327
+      },
+      "decrypt": {
+        "mean_ms": 2.5794342713197693,
+        "sd_ms": 0.07935994320317075,
+        "median_ms": 2.5496040034340695
+      },
+      "ciphertext_bytes": 384,
+      "base64_chars": 512,
+      "sms_segments": 4,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 4096,
+      "security_bits": 152,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 1745.033700199565,
+        "sd_ms": 454.0906798749113,
+        "median_ms": 1570.065958003397
+      },
+      "encrypt": {
+        "mean_ms": 0.15504960945690982,
+        "sd_ms": 0.0026803682257247104,
+        "median_ms": 0.15427100152010098
+      },
+      "decrypt": {
+        "mean_ms": 6.147012909641489,
+        "sd_ms": 0.09440833093691618,
+        "median_ms": 6.1285209958441556
+      },
+      "ciphertext_bytes": 512,
+      "base64_chars": 684,
+      "sms_segments": 5,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 7680,
+      "security_bits": 192,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 26993.252472331125,
+        "sd_ms": 18720.714150156826,
+        "median_ms": 35296.53274999873
+      },
+      "encrypt": {
+        "mean_ms": 0.44956005905987695,
+        "sd_ms": 0.010938612396779306,
+        "median_ms": 0.4508124911808409
+      },
+      "decrypt": {
+        "mean_ms": 42.71239085996058,
+        "sd_ms": 1.1861773158233442,
+        "median_ms": 42.23952049505897
+      },
+      "ciphertext_bytes": 960,
+      "base64_chars": 1280,
+      "sms_segments": 9,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    }
+  ],
+  "message_length": [
+    {
+      "scheme": "ECIES",
+      "size": "P-224",
+      "security_bits": 112,
+      "message_bytes": 8,
+      "keygen": {
+        "mean_ms": 0.0526670046383515,
+        "sd_ms": 0.0,
+        "median_ms": 0.0526670046383515
+      },
+      "encrypt": {
+        "mean_ms": 0.26797999860718846,
+        "sd_ms": 0.008490760956409837,
+        "median_ms": 0.26635450194589794
+      },
+      "decrypt": {
+        "mean_ms": 28.026843689440284,
+        "sd_ms": 3.169232686912239,
+        "median_ms": 28.222374501638114
+      },
+      "ciphertext_bytes": 65,
+      "base64_chars": 88,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 2048,
+      "security_bits": 112,
+      "message_bytes": 8,
+      "keygen": {
+        "mean_ms": 141.14341700042132,
+        "sd_ms": 0.0,
+        "median_ms": 141.14341700042132
+      },
+      "encrypt": {
+        "mean_ms": 0.06314124941127375,
+        "sd_ms": 0.013631659068204394,
+        "median_ms": 0.05979200068395585
+      },
+      "decrypt": {
+        "mean_ms": 0.8231433099717833,
+        "sd_ms": 0.03602869740295677,
+        "median_ms": 0.8123959923977964
+      },
+      "ciphertext_bytes": 256,
+      "base64_chars": 344,
+      "sms_segments": 3,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-224",
+      "security_bits": 112,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.05616700218524784,
+        "sd_ms": 0.0,
+        "median_ms": 0.05616700218524784
+      },
+      "encrypt": {
+        "mean_ms": 0.2750445490528364,
+        "sd_ms": 0.006375998809347779,
+        "median_ms": 0.2724999940255657
+      },
+      "decrypt": {
+        "mean_ms": 28.171134101430653,
+        "sd_ms": 3.26322257497576,
+        "median_ms": 28.235062498424668
+      },
+      "ciphertext_bytes": 99,
+      "base64_chars": 132,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 2048,
+      "security_bits": 112,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 198.1619169964688,
+        "sd_ms": 0.0,
+        "median_ms": 198.1619169964688
+      },
+      "encrypt": {
+        "mean_ms": 0.061519509472418576,
+        "sd_ms": 0.010312771268008378,
+        "median_ms": 0.0602080108365044
+      },
+      "decrypt": {
+        "mean_ms": 0.8153007613145746,
+        "sd_ms": 0.03217526637768913,
+        "median_ms": 0.8023749978747219
+      },
+      "ciphertext_bytes": 256,
+      "base64_chars": 344,
+      "sms_segments": 3,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-224",
+      "security_bits": 112,
+      "message_bytes": 100,
+      "keygen": {
+        "mean_ms": 0.06137500167824328,
+        "sd_ms": 0.0,
+        "median_ms": 0.06137500167824328
+      },
+      "encrypt": {
+        "mean_ms": 0.29342750043724664,
+        "sd_ms": 0.015177461614995835,
+        "median_ms": 0.28789600037271157
+      },
+      "decrypt": {
+        "mean_ms": 29.844227111025248,
+        "sd_ms": 4.350169457226154,
+        "median_ms": 29.364166504819877
+      },
+      "ciphertext_bytes": 157,
+      "base64_chars": 212,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 2048,
+      "security_bits": 112,
+      "message_bytes": 100,
+      "keygen": {
+        "mean_ms": 345.86187500099186,
+        "sd_ms": 0.0,
+        "median_ms": 345.86187500099186
+      },
+      "encrypt": {
+        "mean_ms": 0.06174956026370637,
+        "sd_ms": 0.008721054936037457,
+        "median_ms": 0.06049999501556158
+      },
+      "decrypt": {
+        "mean_ms": 0.8235645294189453,
+        "sd_ms": 0.039326234137019245,
+        "median_ms": 0.8093124997685663
+      },
+      "ciphertext_bytes": 256,
+      "base64_chars": 344,
+      "sms_segments": 3,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-224",
+      "security_bits": 112,
+      "message_bytes": 160,
+      "keygen": {
+        "mean_ms": 0.05587500345427543,
+        "sd_ms": 0.0,
+        "median_ms": 0.05587500345427543
+      },
+      "encrypt": {
+        "mean_ms": 0.28141757924458943,
+        "sd_ms": 0.036053485217807726,
+        "median_ms": 0.26899999647866935
+      },
+      "decrypt": {
+        "mean_ms": 28.12868837994756,
+        "sd_ms": 3.479363688583847,
+        "median_ms": 28.03995800059056
+      },
+      "ciphertext_bytes": 217,
+      "base64_chars": 292,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 2048,
+      "security_bits": 112,
+      "message_bytes": 160,
+      "keygen": {
+        "mean_ms": 63.97179199848324,
+        "sd_ms": 0.0,
+        "median_ms": 63.97179199848324
+      },
+      "encrypt": {
+        "mean_ms": 0.06623829976888373,
+        "sd_ms": 0.027931135306805507,
+        "median_ms": 0.061145503423176706
+      },
+      "decrypt": {
+        "mean_ms": 0.8117687705089338,
+        "sd_ms": 0.027407921428192566,
+        "median_ms": 0.8041670080274343
+      },
+      "ciphertext_bytes": 256,
+      "base64_chars": 344,
+      "sms_segments": 3,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-256",
+      "security_bits": 128,
+      "message_bytes": 8,
+      "keygen": {
+        "mean_ms": 0.055208001867868006,
+        "sd_ms": 0.0,
+        "median_ms": 0.055208001867868006
+      },
+      "encrypt": {
+        "mean_ms": 0.29147663022740744,
+        "sd_ms": 0.010703028209186167,
+        "median_ms": 0.28816649864893407
+      },
+      "decrypt": {
+        "mean_ms": 0.3265575498517137,
+        "sd_ms": 0.010908606582140917,
+        "median_ms": 0.3240829973947257
+      },
+      "ciphertext_bytes": 69,
+      "base64_chars": 92,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 3072,
+      "security_bits": 128,
+      "message_bytes": 8,
+      "keygen": {
+        "mean_ms": 619.5562079956289,
+        "sd_ms": 0.0,
+        "median_ms": 619.5562079956289
+      },
+      "encrypt": {
+        "mean_ms": 0.10295587999280542,
+        "sd_ms": 0.008691241547806,
+        "median_ms": 0.10197950177825987
+      },
+      "decrypt": {
+        "mean_ms": 2.5574025105743203,
+        "sd_ms": 0.052272652934475215,
+        "median_ms": 2.5454374990658835
+      },
+      "ciphertext_bytes": 384,
+      "base64_chars": 512,
+      "sms_segments": 4,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-256",
+      "security_bits": 128,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 0.055083000916056335,
+        "sd_ms": 0.0,
+        "median_ms": 0.055083000916056335
+      },
+      "encrypt": {
+        "mean_ms": 0.291029200743651,
+        "sd_ms": 0.005368750671413773,
+        "median_ms": 0.28877099975943565
+      },
+      "decrypt": {
+        "mean_ms": 0.32686162943718955,
+        "sd_ms": 0.0017328927023953545,
+        "median_ms": 0.32695799018256366
+      },
+      "ciphertext_bytes": 103,
+      "base64_chars": 140,
+      "sms_segments": 1,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 3072,
+      "security_bits": 128,
+      "message_bytes": 42,
+      "keygen": {
+        "mean_ms": 662.1660419914406,
+        "sd_ms": 0.0,
+        "median_ms": 662.1660419914406
+      },
+      "encrypt": {
+        "mean_ms": 0.10420003949548118,
+        "sd_ms": 0.011426139931239842,
+        "median_ms": 0.10241700510960072
+      },
+      "decrypt": {
+        "mean_ms": 2.5628541997866705,
+        "sd_ms": 0.052698814544142686,
+        "median_ms": 2.549916498537641
+      },
+      "ciphertext_bytes": 384,
+      "base64_chars": 512,
+      "sms_segments": 4,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-256",
+      "security_bits": 128,
+      "message_bytes": 100,
+      "keygen": {
+        "mean_ms": 0.0549160031368956,
+        "sd_ms": 0.0,
+        "median_ms": 0.0549160031368956
+      },
+      "encrypt": {
+        "mean_ms": 0.2873024302243721,
+        "sd_ms": 0.0021786808180142563,
+        "median_ms": 0.28689549799310043
+      },
+      "decrypt": {
+        "mean_ms": 0.3254870293312706,
+        "sd_ms": 0.002223353008803257,
+        "median_ms": 0.3250204972573556
+      },
+      "ciphertext_bytes": 161,
+      "base64_chars": 216,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 3072,
+      "security_bits": 128,
+      "message_bytes": 100,
+      "keygen": {
+        "mean_ms": 681.4457079890417,
+        "sd_ms": 0.0,
+        "median_ms": 681.4457079890417
+      },
+      "encrypt": {
+        "mean_ms": 0.10336204126360826,
+        "sd_ms": 0.011360697216494473,
+        "median_ms": 0.10204099817201495
+      },
+      "decrypt": {
+        "mean_ms": 2.5828179297968745,
+        "sd_ms": 0.05985432788758306,
+        "median_ms": 2.559353997639846
+      },
+      "ciphertext_bytes": 384,
+      "base64_chars": 512,
+      "sms_segments": 4,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    },
+    {
+      "scheme": "ECIES",
+      "size": "P-256",
+      "security_bits": 128,
+      "message_bytes": 160,
+      "keygen": {
+        "mean_ms": 0.05775000317953527,
+        "sd_ms": 0.0,
+        "median_ms": 0.05775000317953527
+      },
+      "encrypt": {
+        "mean_ms": 0.28742785929352976,
+        "sd_ms": 0.003958355348565189,
+        "median_ms": 0.2866454960894771
+      },
+      "decrypt": {
+        "mean_ms": 0.33093329053372145,
+        "sd_ms": 0.027044332337511898,
+        "median_ms": 0.32627099426463246
+      },
+      "ciphertext_bytes": 221,
+      "base64_chars": 296,
+      "sms_segments": 2,
+      "round_trips_ok": 100,
+      "round_trips": 100,
+      "compressed_point": true
+    },
+    {
+      "scheme": "RSA-OAEP",
+      "size": 3072,
+      "security_bits": 128,
+      "message_bytes": 160,
+      "keygen": {
+        "mean_ms": 471.4962080033729,
+        "sd_ms": 0.0,
+        "median_ms": 471.4962080033729
+      },
+      "encrypt": {
+        "mean_ms": 0.10083039916935377,
+        "sd_ms": 0.0013178722439753001,
+        "median_ms": 0.10054199083242565
+      },
+      "decrypt": {
+        "mean_ms": 2.5601978808117565,
+        "sd_ms": 0.058713853682427125,
+        "median_ms": 2.546270494349301
+      },
+      "ciphertext_bytes": 384,
+      "base64_chars": 512,
+      "sms_segments": 4,
+      "round_trips_ok": 100,
+      "round_trips": 100
+    }
+  ]
+}

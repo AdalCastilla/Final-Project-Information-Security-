@@ -1,0 +1,33 @@
+{'python': '3.12.7', 'pycryptodome': '4.6.0', 'platform': 'macOS-26.6.2-arm64-arm-64bit', 'machine': 'arm64', 'processor': 'Apple M3', 'date': '2026-11-24'}
+ECIES     P-192  msg= 42B  kg=     0.039  enc=  0.2057  dec=  0.2561 ms  ct=95B  b64=128  sms=1  ok=100/100
+ECIES     P-224  msg= 42B  kg=     0.047  enc=  0.2704  dec= 28.3625 ms  ct=99B  b64=132  sms=1  ok=100/100
+ECIES     P-256  msg= 42B  kg=     0.048  enc=  0.2915  dec=  0.3404 ms  ct=103B  b64=140  sms=1  ok=100/100
+ECIES     P-384  msg= 42B  kg=     0.081  enc=  0.6086  dec=  0.5552 ms  ct=119B  b64=160  sms=1  ok=100/100
+ECIES     P-521  msg= 42B  kg=     0.113  enc=  0.7900  dec=  0.8053 ms  ct=137B  b64=184  sms=2  ok=100/100
+ECIES-unc P-192  msg= 42B  kg=     0.037  enc=  0.2130  dec=  0.1876 ms  ct=119B  b64=160  sms=1  ok=100/100
+ECIES-unc P-224  msg= 42B  kg=     0.044  enc=  0.2717  dec=  0.2366 ms  ct=127B  b64=172  sms=2  ok=100/100
+ECIES-unc P-256  msg= 42B  kg=     0.047  enc=  0.2901  dec=  0.2521 ms  ct=135B  b64=180  sms=2  ok=100/100
+ECIES-unc P-384  msg= 42B  kg=     0.082  enc=  0.5336  dec=  0.4548 ms  ct=167B  b64=224  sms=2  ok=100/100
+ECIES-unc P-521  msg= 42B  kg=     0.114  enc=  0.7946  dec=  0.6689 ms  ct=203B  b64=272  sms=2  ok=100/100
+RSA-OAEP  1024   msg= 42B  kg=    41.675  enc=  0.0330  dec=  0.1778 ms  ct=128B  b64=172  sms=2  ok=100/100
+RSA-OAEP  2048   msg= 42B  kg=   165.368  enc=  0.0601  dec=  0.8160 ms  ct=256B  b64=344  sms=3  ok=100/100
+RSA-OAEP  3072   msg= 42B  kg=  1361.165  enc=  0.1013  dec=  2.5794 ms  ct=384B  b64=512  sms=4  ok=100/100
+RSA-OAEP  4096   msg= 42B  kg=  1745.034  enc=  0.1550  dec=  6.1470 ms  ct=512B  b64=684  sms=5  ok=100/100
+RSA-OAEP  7680   msg= 42B  kg= 26993.252  enc=  0.4496  dec= 42.7124 ms  ct=960B  b64=1280  sms=9  ok=100/100
+ECIES     P-224  msg=  8B  kg=     0.053  enc=  0.2680  dec= 28.0268 ms  ct=65B  b64=88  sms=1  ok=100/100
+RSA-OAEP  2048   msg=  8B  kg=   141.143  enc=  0.0631  dec=  0.8231 ms  ct=256B  b64=344  sms=3  ok=100/100
+ECIES     P-224  msg= 42B  kg=     0.056  enc=  0.2750  dec= 28.1711 ms  ct=99B  b64=132  sms=1  ok=100/100
+RSA-OAEP  2048   msg= 42B  kg=   198.162  enc=  0.0615  dec=  0.8153 ms  ct=256B  b64=344  sms=3  ok=100/100
+ECIES     P-224  msg=100B  kg=     0.061  enc=  0.2934  dec= 29.8442 ms  ct=157B  b64=212  sms=2  ok=100/100
+RSA-OAEP  2048   msg=100B  kg=   345.862  enc=  0.0617  dec=  0.8236 ms  ct=256B  b64=344  sms=3  ok=100/100
+ECIES     P-224  msg=160B  kg=     0.056  enc=  0.2814  dec= 28.1287 ms  ct=217B  b64=292  sms=2  ok=100/100
+RSA-OAEP  2048   msg=160B  kg=    63.972  enc=  0.0662  dec=  0.8118 ms  ct=256B  b64=344  sms=3  ok=100/100
+ECIES     P-256  msg=  8B  kg=     0.055  enc=  0.2915  dec=  0.3266 ms  ct=69B  b64=92  sms=1  ok=100/100
+RSA-OAEP  3072   msg=  8B  kg=   619.556  enc=  0.1030  dec=  2.5574 ms  ct=384B  b64=512  sms=4  ok=100/100
+ECIES     P-256  msg= 42B  kg=     0.055  enc=  0.2910  dec=  0.3269 ms  ct=103B  b64=140  sms=1  ok=100/100
+RSA-OAEP  3072   msg= 42B  kg=   662.166  enc=  0.1042  dec=  2.5629 ms  ct=384B  b64=512  sms=4  ok=100/100
+ECIES     P-256  msg=100B  kg=     0.055  enc=  0.2873  dec=  0.3255 ms  ct=161B  b64=216  sms=2  ok=100/100
+RSA-OAEP  3072   msg=100B  kg=   681.446  enc=  0.1034  dec=  2.5828 ms  ct=384B  b64=512  sms=4  ok=100/100
+ECIES     P-256  msg=160B  kg=     0.058  enc=  0.2874  dec=  0.3309 ms  ct=221B  b64=296  sms=2  ok=100/100
+RSA-OAEP  3072   msg=160B  kg=   471.496  enc=  0.1008  dec=  2.5602 ms  ct=384B  b64=512  sms=4  ok=100/100
+saved results/results.json

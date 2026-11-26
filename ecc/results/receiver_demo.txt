@@ -1,0 +1,14 @@
+Plaintext (42 bytes): 'Meet me at the library at 6 pm. See you!!!'
+
+=== Security level 112 bits: RSA-2048 vs ECC P-224 ===
+  RSA SMS body (344 chars, 3 SMS): RRGS4PnFg6HKwH6JTxbVDc3faOH4AHrOAWL1fjMEgobv2S4qsG9gaVyqrWHl...
+  ECC SMS body (132 chars, 1 SMS): AoYYi8R4csDyrL+SFYKKjS8xC+1yJY4u97R9zrqjorkCh3yGbxiV27xSQm5H...
+  [RSA] Bob's phone decrypted: 'Meet me at the library at 6 pm. See you!!!'  (0.807 ms per message)
+  [ECC] Bob's phone decrypted: 'Meet me at the library at 6 pm. See you!!!'  (21.920 ms per message)
+
+=== Security level 128 bits: RSA-3072 vs ECC P-256 ===
+  RSA SMS body (512 chars, 4 SMS): rHvC6IAlvVIR38HjW6kWiwubfzhkMRn7vCn05uGjtlY3LiCO4zw0uTFgBHb0...
+  ECC SMS body (140 chars, 1 SMS): AlGCA8B3y6pBWjj95BKF0jYOdVV27q7I2EjY0BDyAkYkmyEU/sd3OdM13tfT...
+  [RSA] Bob's phone decrypted: 'Meet me at the library at 6 pm. See you!!!'  (2.554 ms per message)
+  [ECC] Bob's phone decrypted: 'Meet me at the library at 6 pm. See you!!!'  (0.330 ms per message)
+
